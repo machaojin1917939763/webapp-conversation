@@ -1,5 +1,6 @@
 import { API_PREFIX } from '@/config'
 import Toast from '@/app/components/base/toast'
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 
 const TIME_OUT = 100000
 
