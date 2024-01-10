@@ -331,9 +331,8 @@ const Welcome: FC<IWelcomeProps> = ({
               </div>
               : <div>
               </div>}
-            <a className='flex items-center pr-3 space-x-3' href="https://dify.ai/" target="_blank">
-              <span className='uppercase'>{t('app.chat.powerBy')}</span>
-              <FootLogo />
+            <a className='flex items-center pr-3 space-x-3' href="https://machaojin.cn" target="_blank">
+              <span className='uppercase'>{t('app.chat.powerBy')} Ma Chaojin</span>
             </a>
           </div>
         )}
